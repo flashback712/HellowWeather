@@ -1,6 +1,6 @@
-# SunnyWeather
-演示图
+# HellowWeather
 
+![demo gif]()
 
 ## 项目亮点
 - 尽管SunnyWeather本身是一款简单的安卓天气应用，但麻雀虽小，五脏俱全。
@@ -12,6 +12,7 @@
         - Retrofit：Retrofit作为目前安卓主流的网络获取库，其重要性不言而喻，SunnyWeather可以很好演示如何使用Retrofit从后台获取数据。
         - Dagger：Dagger是目前主流的依赖注入库，但Dagger本身就有匕首的意思，匕首可御敌，使用不当也会伤到自己，Dagger依赖注入库也是这个理，使用恰当可以减少很多初始化的代码，但其使用难度不小，此外使用不当也会使编码得更加复杂，SunnyWeather就很好演示了如何使用Dagger进行依赖注入，比如说如何向Application，Activity这种Dagger无法直接初始化的类进行依赖注入。如何搭配Retrofit网络库来获取网络数据更加优雅～
     - 良好的编码风格：在如今的开发过程中，并不是说人和项目只要有一个能跑就行，而是需要项目具有一定的可维护性，而良好的代码风格正是可维护性基本要求之一，下面代码截取至MainActivity文件。
+
 ``` kotlin
     private fun init() {
         initLocationFunctions()
@@ -31,7 +32,7 @@
     }
 ```
 
-init()方法负责执行初始化工作，即使你不知道这个应用的基本信息，从代码里大致也能推断出下列程序逻辑。
+    init()方法负责执行初始化工作，即使你不知道这个应用的基本信息，从代码里大致也能推断出下列程序逻辑。
 
     - 先初始化定位功能。
 
@@ -65,4 +66,5 @@ init()方法负责执行初始化工作，即使你不知道这个应用的基�
     - 使用地址选择器库AndroidPicker。
     
 ### 参考
-《第一行代码》
+
+<a href = "https://blog.csdn.net/guolin_blog/article/details/105233078">《第一行代码》</a>
