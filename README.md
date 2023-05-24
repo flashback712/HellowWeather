@@ -1,6 +1,6 @@
 # HellowWeather
 
-![demo gif]()
+![demo gif](https://github.com/flashback712/HellowWeather/blob/main/demo.gif)
 
 ## 项目亮点
 - 尽管SunnyWeather本身是一款简单的安卓天气应用，但麻雀虽小，五脏俱全。
